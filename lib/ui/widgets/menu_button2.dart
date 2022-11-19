@@ -1,7 +1,7 @@
-import 'package:conalep_izt3_app_registro/ui/res/colors.dart';
-import 'package:conalep_izt3_app_registro/ui/screens/access/register_access/get_face.dart';
-import 'package:conalep_izt3_app_registro/ui/screens/access/register_access/get_signature.dart';
-import 'package:conalep_izt3_app_registro/src/utils/routes_arguments.dart';
+import 'package:secgen78_app_registro/ui/res/colors.dart';
+import 'package:secgen78_app_registro/ui/screens/access/register_access/get_face.dart';
+import 'package:secgen78_app_registro/ui/screens/access/register_access/get_signature.dart';
+import 'package:secgen78_app_registro/src/utils/routes_arguments.dart';
 import "package:flutter/material.dart";
 
 class MenuButton2 extends StatelessWidget {

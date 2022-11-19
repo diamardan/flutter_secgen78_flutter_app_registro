@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:conalep_izt3_app_registro/ui/screens/pago/payment_wrapper.dart';
-import 'package:conalep_izt3_app_registro/ui/screens/preregistro/create_form.dart';
+import 'package:secgen78_app_registro/ui/screens/pago/payment_wrapper.dart';
+import 'package:secgen78_app_registro/ui/screens/preregistro/create_form.dart';
 
 showAlertDialog(BuildContext context, String title, String message,
     [String kind, bool redirect = false]) {

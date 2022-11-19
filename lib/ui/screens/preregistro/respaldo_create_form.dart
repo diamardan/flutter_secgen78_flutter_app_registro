@@ -4,15 +4,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'package:image_picker/image_picker.dart';
-import 'package:conalep_izt3_app_registro/src/customWidgets/Alert.dart';
-import 'package:conalep_izt3_app_registro/ui/screens/preregistro/last_screen.dart';
-import 'package:conalep_izt3_app_registro/src/data/AlumnoService.dart';
-import 'package:conalep_izt3_app_registro/src/data/EspecialidadesService.dart';
-import 'package:conalep_izt3_app_registro/src/data/GruposService.dart';
-import 'package:conalep_izt3_app_registro/src/data/SemestresService.dart';
-import 'package:conalep_izt3_app_registro/src/data/TurnosService.dart';
-import 'package:conalep_izt3_app_registro/src/utils/txtFormater.dart';
-import 'package:conalep_izt3_app_registro/src/utils/validator.dart';
+import 'package:secgen78_app_registro/src/customWidgets/Alert.dart';
+import 'package:secgen78_app_registro/ui/screens/preregistro/last_screen.dart';
+import 'package:secgen78_app_registro/src/data/AlumnoService.dart';
+import 'package:secgen78_app_registro/src/data/EspecialidadesService.dart';
+import 'package:secgen78_app_registro/src/data/GruposService.dart';
+import 'package:secgen78_app_registro/src/data/SemestresService.dart';
+import 'package:secgen78_app_registro/src/data/TurnosService.dart';
+import 'package:secgen78_app_registro/src/utils/txtFormater.dart';
+import 'package:secgen78_app_registro/src/utils/validator.dart';
 import 'package:signature/signature.dart';
 
 class PreregForm extends StatefulWidget {

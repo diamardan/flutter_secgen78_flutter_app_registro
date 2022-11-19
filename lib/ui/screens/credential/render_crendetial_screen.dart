@@ -1,4 +1,4 @@
-import 'package:conalep_izt3_app_registro/ui/res/colors.dart';
+import 'package:secgen78_app_registro/ui/res/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 import 'dart:io';

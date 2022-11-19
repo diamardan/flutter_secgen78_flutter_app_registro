@@ -1,9 +1,9 @@
 import 'dart:math';
 
-import 'package:conalep_izt3_app_registro/src/models/user_model.dart';
-import 'package:conalep_izt3_app_registro/src/data/AuthenticationService.dart';
-import 'package:conalep_izt3_app_registro/src/data/RegistrationService.dart';
-import 'package:conalep_izt3_app_registro/src/utils/enums.dart';
+import 'package:secgen78_app_registro/src/models/user_model.dart';
+import 'package:secgen78_app_registro/src/data/AuthenticationService.dart';
+import 'package:secgen78_app_registro/src/data/RegistrationService.dart';
+import 'package:secgen78_app_registro/src/utils/enums.dart';
 
 class AuthSign {
   static RegistrationService registrationService = RegistrationService();

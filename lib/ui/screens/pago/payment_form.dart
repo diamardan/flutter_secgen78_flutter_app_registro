@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:conalep_izt3_app_registro/src/data/PaymentsService.dart';
+import 'package:secgen78_app_registro/src/data/PaymentsService.dart';
 //credit card
 import 'package:flutter_credit_card/flutter_credit_card.dart';
 //import 'package:flutter_openpay/flutter_openpay.dart';

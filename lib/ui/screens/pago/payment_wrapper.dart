@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:conalep_izt3_app_registro/src/constants/constants.dart';
-//import 'package:conalep_izt3_app_registro/ui/screens/pago/payment_form.dart';
+import 'package:secgen78_app_registro/src/constants/constants.dart';
+//import 'package:secgen78_app_registro/ui/screens/pago/payment_form.dart';
 
 import '../../res/colors.dart';
 

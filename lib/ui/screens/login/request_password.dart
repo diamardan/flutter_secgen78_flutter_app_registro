@@ -1,9 +1,9 @@
 import 'dart:math';
-import 'package:conalep_izt3_app_registro/src/data/AuthenticationService.dart';
-import 'package:conalep_izt3_app_registro/src/utils/auth_sign.dart';
-import 'package:conalep_izt3_app_registro/src/utils/enums.dart';
-import 'package:conalep_izt3_app_registro/ui/res/notify_ui.dart';
-import 'package:conalep_izt3_app_registro/src/utils/validator.dart';
+import 'package:secgen78_app_registro/src/data/AuthenticationService.dart';
+import 'package:secgen78_app_registro/src/utils/auth_sign.dart';
+import 'package:secgen78_app_registro/src/utils/enums.dart';
+import 'package:secgen78_app_registro/ui/res/notify_ui.dart';
+import 'package:secgen78_app_registro/src/utils/validator.dart';
 import 'package:flutter/material.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
 

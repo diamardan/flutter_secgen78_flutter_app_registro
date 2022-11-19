@@ -1,13 +1,13 @@
-import 'package:conalep_izt3_app_registro/ui/res/colors.dart';
+import 'package:secgen78_app_registro/ui/res/colors.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:conalep_izt3_app_registro/src/provider/supscritions_provider.dart';
-import 'package:conalep_izt3_app_registro/src/provider/user_provider.dart';
-import 'package:conalep_izt3_app_registro/src/routes/routes.dart';
-import 'package:conalep_izt3_app_registro/ui/screens/login/wrapper_auth.dart';
-import 'package:conalep_izt3_app_registro/src/data/AuthenticationService.dart';
+import 'package:secgen78_app_registro/src/provider/supscritions_provider.dart';
+import 'package:secgen78_app_registro/src/provider/user_provider.dart';
+import 'package:secgen78_app_registro/src/routes/routes.dart';
+import 'package:secgen78_app_registro/ui/screens/login/wrapper_auth.dart';
+import 'package:secgen78_app_registro/src/data/AuthenticationService.dart';
 import 'package:google_fonts/google_fonts.dart';
-//import 'package:conalep_izt3_app_registro/src/bloc/deep_link_bloc.dart';
+//import 'package:secgen78_app_registro/src/bloc/deep_link_bloc.dart';
 import 'package:provider/provider.dart';
 
 import 'ui/res/design_constants.dart';

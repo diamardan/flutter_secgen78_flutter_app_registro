@@ -1,4 +1,4 @@
-package com.identaflix.conalep_izt3_app_registro
+package com.identaflix.secgen78_app_registro
 
 import android.content.Context
 import android.os.Bundle

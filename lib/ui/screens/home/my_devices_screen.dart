@@ -1,11 +1,11 @@
-import 'package:conalep_izt3_app_registro/src/controllers/SignIn/SignInController.dart';
-import 'package:conalep_izt3_app_registro/src/provider/Device.dart';
-import 'package:conalep_izt3_app_registro/src/provider/user_provider.dart';
-import 'package:conalep_izt3_app_registro/src/data/AuthenticationService.dart';
-import 'package:conalep_izt3_app_registro/src/data/DeviceService.dart';
-import 'package:conalep_izt3_app_registro/src/data/RegistrationService.dart';
-import 'package:conalep_izt3_app_registro/ui/res/typography.dart';
-import 'package:conalep_izt3_app_registro/ui/widgets/logout_dialog.dart';
+import 'package:secgen78_app_registro/src/controllers/SignIn/SignInController.dart';
+import 'package:secgen78_app_registro/src/provider/Device.dart';
+import 'package:secgen78_app_registro/src/provider/user_provider.dart';
+import 'package:secgen78_app_registro/src/data/AuthenticationService.dart';
+import 'package:secgen78_app_registro/src/data/DeviceService.dart';
+import 'package:secgen78_app_registro/src/data/RegistrationService.dart';
+import 'package:secgen78_app_registro/ui/res/typography.dart';
+import 'package:secgen78_app_registro/ui/widgets/logout_dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

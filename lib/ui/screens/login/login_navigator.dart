@@ -1,8 +1,8 @@
-import 'package:conalep_izt3_app_registro/ui/screens/login/login_screen.dart';
-import 'package:conalep_izt3_app_registro/ui/screens/login/recovery_screen.dart';
+import 'package:secgen78_app_registro/ui/screens/login/login_screen.dart';
+import 'package:secgen78_app_registro/ui/screens/login/recovery_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:conalep_izt3_app_registro/ui/screens/login/login_email_screen.dart';
+import 'package:secgen78_app_registro/ui/screens/login/login_email_screen.dart';
 
 class LoginNavigator extends StatefulWidget {
   @override

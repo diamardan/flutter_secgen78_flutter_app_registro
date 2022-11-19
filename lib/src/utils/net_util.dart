@@ -1,4 +1,4 @@
-import 'package:conalep_izt3_app_registro/src/utils/enums.dart';
+import 'package:secgen78_app_registro/src/utils/enums.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 

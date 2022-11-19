@@ -1,6 +1,6 @@
-import 'package:conalep_izt3_app_registro/src/constants/constants.dart';
-import 'package:conalep_izt3_app_registro/src/models/user_model.dart';
-import 'package:conalep_izt3_app_registro/src/data/SharedService.dart';
+import 'package:secgen78_app_registro/src/constants/constants.dart';
+import 'package:secgen78_app_registro/src/models/user_model.dart';
+import 'package:secgen78_app_registro/src/data/SharedService.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 const school = AppConstants.fsCollectionName;

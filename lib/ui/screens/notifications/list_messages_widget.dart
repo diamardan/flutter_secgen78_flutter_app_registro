@@ -1,10 +1,9 @@
-import 'package:conalep_izt3_app_registro/src/constants/constants.dart';
-import 'package:conalep_izt3_app_registro/src/models/notification_model.dart'
-    as n;
-import 'package:conalep_izt3_app_registro/src/models/user_model.dart';
-import 'package:conalep_izt3_app_registro/src/provider/user_provider.dart';
-import 'package:conalep_izt3_app_registro/ui/screens/notifications/attachments_screen.dart';
-import 'package:conalep_izt3_app_registro/src/data/RegistrationService.dart';
+import 'package:secgen78_app_registro/src/constants/constants.dart';
+import 'package:secgen78_app_registro/src/models/notification_model.dart' as n;
+import 'package:secgen78_app_registro/src/models/user_model.dart';
+import 'package:secgen78_app_registro/src/provider/user_provider.dart';
+import 'package:secgen78_app_registro/ui/screens/notifications/attachments_screen.dart';
+import 'package:secgen78_app_registro/src/data/RegistrationService.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';

@@ -1,7 +1,7 @@
-import 'package:conalep_izt3_app_registro/src/data/LogService.dart';
-import 'package:conalep_izt3_app_registro/src/data/MessagingService.dart';
-import 'package:conalep_izt3_app_registro/src/models/notification_model.dart';
-import 'package:conalep_izt3_app_registro/ui/res/local_motifications.dart';
+import 'package:secgen78_app_registro/src/data/LogService.dart';
+import 'package:secgen78_app_registro/src/data/MessagingService.dart';
+import 'package:secgen78_app_registro/src/models/notification_model.dart';
+import 'package:secgen78_app_registro/ui/res/local_motifications.dart';
 import 'package:flutter_geofence/geofence.dart';
 import 'package:provider/provider.dart';
 

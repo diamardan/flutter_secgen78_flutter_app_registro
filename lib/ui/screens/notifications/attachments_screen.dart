@@ -1,6 +1,6 @@
-import 'package:conalep_izt3_app_registro/src/constants/constants.dart';
-import 'package:conalep_izt3_app_registro/src/data/MessagingService.dart';
-import 'package:conalep_izt3_app_registro/ui/widgets/download_attachments.dart';
+import 'package:secgen78_app_registro/src/constants/constants.dart';
+import 'package:secgen78_app_registro/src/data/MessagingService.dart';
+import 'package:secgen78_app_registro/ui/widgets/download_attachments.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 

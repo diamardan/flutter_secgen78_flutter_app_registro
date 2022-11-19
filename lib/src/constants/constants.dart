@@ -7,16 +7,16 @@ class AppConstants {
   //static const whatsappNumber = '+5215520779800';
   static const whatsappNumber = '+5215561146039';
   static const supportNumber = '5561146039';
-  static const whatsappText = 'Hola me comunico del CONALEP IZTAPALAPA III';
-  static const accesosById = backendUrl + '/conalep.izt3/accesos/getAllById';
-  static const accesosAll = backendUrl + '/conalep.izt3/accesos/getAll';
+  static const whatsappText = 'Hola me comunico de la SECUNDARIA GENERAL 78';
+  static const accesosById = backendUrl + '/secgen78/accesos/getAllById';
+  static const accesosAll = backendUrl + '/secgen78/accesos/getAll';
 
   static const pdfPagoUrl =
       "https://escuelas.identaflix.com/public/pdfs/LUMEN%20FORMATO%20PAGO.pdf";
   static const urlAttendance = "https://attendance-lumen.web.app/";
   static const urlAttendanceIdPosition = 33;
   //fsCollectionName almacena el nombre de la collection que hace referencia a la escuela sobre la que se va a trabajar
-  static const fsCollectionName = "conalepizt3";
+  static const fsCollectionName = "secgeneral78";
   //éste link es el de la carpeta del google drive credenciales
   static const gdriveUrl =
       "https://drive.google.com/drive/folders/1u06DdjAA3RxWwc7EyYGWjia_gxLBNHhS?usp=sharing";

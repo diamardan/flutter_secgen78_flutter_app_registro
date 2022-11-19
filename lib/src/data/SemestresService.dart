@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:http/http.dart' as http;
-import 'package:conalep_izt3_app_registro/src/constants/constants.dart';
-import 'package:conalep_izt3_app_registro/src/utils/net_util.dart';
+import 'package:secgen78_app_registro/src/constants/constants.dart';
+import 'package:secgen78_app_registro/src/utils/net_util.dart';
 
 class SemestresService {
   getAll() async {

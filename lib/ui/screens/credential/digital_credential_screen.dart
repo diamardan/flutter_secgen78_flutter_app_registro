@@ -1,15 +1,14 @@
 import 'dart:async';
 import 'dart:io';
 import 'dart:typed_data';
-import 'package:conalep_izt3_app_registro/src/models/user_model.dart';
-import 'package:conalep_izt3_app_registro/src/provider/user_provider.dart';
-import 'package:conalep_izt3_app_registro/ui/res/colors.dart';
-import 'package:conalep_izt3_app_registro/ui/screens/credential/render_crendetial_screen.dart';
-import 'package:conalep_izt3_app_registro/src/utils/imageUtil.dart';
-import 'package:conalep_izt3_app_registro/src/utils/widget_to_image.dart';
+import 'package:secgen78_app_registro/src/models/user_model.dart';
+import 'package:secgen78_app_registro/src/provider/user_provider.dart';
+import 'package:secgen78_app_registro/ui/res/colors.dart';
+import 'package:secgen78_app_registro/ui/screens/credential/render_crendetial_screen.dart';
+import 'package:secgen78_app_registro/src/utils/imageUtil.dart';
+import 'package:secgen78_app_registro/src/utils/widget_to_image.dart';
 import 'package:ext_storage/ext_storage.dart';
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart'; // for date format
 import 'package:pdf/widgets.dart' as pw;
 import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart';
@@ -136,16 +135,24 @@ class _DigitalCredentialScreenState extends State<DigitalCredentialScreen> {
       children: [
         SizedBox(height: 120),
         Container(
-            height: 150,
-            width: 150,
+            height: 140,
+            width: 140,
             margin: EdgeInsets.fromLTRB(15, 5, 0, 0),
             child: _networkImageWidget(200, 150, register.qrDrive)),
-        SizedBox(height: 30),
+        SizedBox(height: 145),
         Container(
+          width: 250,
+          child: Text(
+            "18 OCTUBRE 2022",
+            textAlign: TextAlign.right,
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 12),
+          ),
+        )
+        /* Container(
             height: 50,
             width: 185,
             margin: EdgeInsets.fromLTRB(15, 5, 0, 0),
-            child: _networkImageWidget(200, 150, register.firmaDrive)),
+            child: _networkImageWidget(200, 150, register.firmaDrive)), */
       ],
     );
   }
@@ -175,7 +182,7 @@ class _DigitalCredentialScreenState extends State<DigitalCredentialScreen> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                height: 550,
+                height: 555,
                 width: 345,
                 decoration: BoxDecoration(
                   border: Border.all(color: Colors.transparent, width: 2),
@@ -185,7 +192,7 @@ class _DigitalCredentialScreenState extends State<DigitalCredentialScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     SizedBox(
-                      height: 60,
+                      height: 100,
                     ),
                     _upperFront(),
                     SizedBox(
@@ -207,7 +214,7 @@ class _DigitalCredentialScreenState extends State<DigitalCredentialScreen> {
                     SizedBox(
                       height: 30,
                     ),
-                    Container(
+                    /* Container(
                       width: 350,
                       child: Text(
                         register.career,
@@ -215,7 +222,7 @@ class _DigitalCredentialScreenState extends State<DigitalCredentialScreen> {
                         style: TextStyle(
                             fontWeight: FontWeight.bold, fontSize: 18),
                       ),
-                    ),
+                    ), */
                     SizedBox(
                       height: 10,
                     ),
@@ -261,21 +268,24 @@ class _DigitalCredentialScreenState extends State<DigitalCredentialScreen> {
         Container(
           //left Column
           color: Colors.transparent,
-          height: 206,
+          height: 216,
           width: 93,
           padding: EdgeInsets.only(
             top: 40,
           ),
           child: Column(children: <Widget>[
-            Text(
-              register.idbio.toString(),
-              textAlign: TextAlign.center,
-              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
-            ),
             SizedBox(
-              height: 10,
+              height: 13,
             ),
-            _networkImageWidget(100, 100, register.qrDrive)
+            _networkImageWidget(100, 100, register.qrDrive),
+            Container(
+              margin: EdgeInsets.only(top: 30, right: 8),
+              child: Text(
+                register.idbio.toString(),
+                textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
+              ),
+            ),
           ]),
         ),
         SizedBox(
@@ -298,7 +308,7 @@ class _DigitalCredentialScreenState extends State<DigitalCredentialScreen> {
           height: 206,
           width: 80,
           padding: EdgeInsets.only(
-            top: 40,
+            top: 50,
           ),
           child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -313,8 +323,18 @@ class _DigitalCredentialScreenState extends State<DigitalCredentialScreen> {
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
                   ),
                 ),
-                SizedBox(
-                  height: 60,
+                Container(
+                  padding: EdgeInsets.only(top: 20),
+                  decoration: BoxDecoration(color: Colors.transparent),
+                  height: 90,
+                  child: Center(
+                    child: Text(
+                      register.group.toString(),
+                      textAlign: TextAlign.center,
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
+                    ),
+                  ),
                 ),
                 Container(
                   height: 30,
@@ -337,7 +357,8 @@ class _DigitalCredentialScreenState extends State<DigitalCredentialScreen> {
 
   Widget _cintilla() {
     return Container(
-      height: 60,
+      padding: EdgeInsets.only(top: 20),
+      height: 70,
       width: 350,
       color: Colors.transparent,
       child: Column(
