@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
           ),
         ],
         child: MaterialApp(
-            title: 'CONALEP IZTAPALAPA III',
+            title: 'SECUNDARIA GENERAL 78',
             debugShowCheckedModeBanner: false,
             routes: getApplicationRoutes(context),
             theme: ThemeData(
