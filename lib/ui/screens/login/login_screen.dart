@@ -79,6 +79,7 @@ class _LoginScreenState extends State<LoginScreen> {
       }
     } catch (error) {
       await NotifyUI.showError(context, messageTitle, error.toString());
+      setLoading(false);
     }
   }
 
@@ -103,8 +104,10 @@ class _LoginScreenState extends State<LoginScreen> {
     } on PlatformException catch (e) {
       if (e.code == BarcodeScanner.cameraAccessDenied) {
         showDialogPermissions(context);
+        setLoading(false);
       } else {
         print('error: $e');
+        setLoading(false);
       }
     } catch (error) {
       setLoading(false);
@@ -454,7 +457,7 @@ class _LoginScreenState extends State<LoginScreen> {
               TextButton(
                 child: Text('Ok'),
                 onPressed: () async {
-                  await openAppSettings();
+                  Navigator.of(context).pop();
                 },
               )
             ],
